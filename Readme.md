@@ -9,20 +9,20 @@ Scoped browsers - Chrome, Firefox and Internet Explorer
 
 
 Folder Structure (src\main\java) - 
-PageFactory
-	LoginPage.java - POM of LoginPage with object locators and functions
-	QuickViewPopup.java - POM of Quick View with object locators and functions
-	ShoppingCartPage.java - POM of Shopping Cart with object locators and functions
-	VerifyApplicationUI.java - POM of Application with object locators and functions
-TestScripts
-	Selenium_Test.java - selenium script
-	Selenium_Test1.java - selenium script with Testng annotations
-Utility
-	AppUtility.java - Application Menu and other functions with object locators
-	Json_Utility.java - Json write, read and delete
-	Utility.java - to handle browser functions
-drivers - browser drivers
-pom.xml
+1. PageFactory
+1.1	LoginPage.java - POM of LoginPage with object locators and functions
+1.2	QuickViewPopup.java - POM of Quick View with object locators and functions
+1.3	ShoppingCartPage.java - POM of Shopping Cart with object locators and functions
+1.4	VerifyApplicationUI.java - POM of Application with object locators and functions
+2. TestScripts
+2.1	Selenium_Test.java - selenium script
+2.2	Selenium_Test1.java - selenium script with Testng annotations
+3. Utility
+3.1	AppUtility.java - Application Menu and other functions with object locators
+3.2	Json_Utility.java - Json write, read and delete
+3.3	Utility.java - to handle browser functions
+4. drivers - browser drivers
+5. pom.xml
 
 To reuse existing browser
 1. With 'reuserBrowser' = false for getDriver functions, comment driver.close/quit and execute to launch browser 
