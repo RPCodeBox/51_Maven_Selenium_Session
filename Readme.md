@@ -10,17 +10,17 @@ Scoped browsers - Chrome, Firefox and Internet Explorer
 
 Folder Structure (src\main\java) - 
 1. PageFactory
-1)	LoginPage.java - POM of LoginPage with object locators and functions
-2)	QuickViewPopup.java - POM of Quick View with object locators and functions
-3)	ShoppingCartPage.java - POM of Shopping Cart with object locators and functions
-4)	VerifyApplicationUI.java - POM of Application with object locators and functions
+ 1)	LoginPage.java - POM of LoginPage with object locators and functions
+ 2)	QuickViewPopup.java - POM of Quick View with object locators and functions
+ 3)	ShoppingCartPage.java - POM of Shopping Cart with object locators and functions
+ 4)	VerifyApplicationUI.java - POM of Application with object locators and functions
 2. TestScripts
-1)	Selenium_Test.java - selenium script
-2)	Selenium_Test1.java - selenium script with Testng annotations
+ 1)	Selenium_Test.java - selenium script
+ 2)	Selenium_Test1.java - selenium script with Testng annotations
 3. Utility
-1)	AppUtility.java - Application Menu and other functions with object locators
-2)	Json_Utility.java - Json write, read and delete
-3)	Utility.java - to handle browser functions
+ 1)	AppUtility.java - Application Menu and other functions with object locators
+ 2)	Json_Utility.java - Json write, read and delete
+ 3)	Utility.java - to handle browser functions
 4. drivers - browser drivers
 5. pom.xml
 
